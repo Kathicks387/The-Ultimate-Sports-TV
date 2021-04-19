@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,800;1,500;1,800;1,900&family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+} */
+
+p {
+    margin: 10px 0;
+}
+
+/* img {
+    width: 100%;
+} */
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:black;
+    color: red;
+    /* opacity: 0.8; */
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+    transition: 0.5s;
+}
+
+.navbar.top {
+    background: #fcf6f6;
+}
+
+.navbar a {
+    color: red;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    border-bottom: rgb(11, 48, 214) 2px solid;
+    color: rgb(11, 48, 214);
+}
+
+.navbar ul {
+    display: flex;
+}
+/* 
+.navbar .logo {
+    font-weight: 600;
+} */
+
+.navbar .title {
+    font-weight: 600;
+}
+
+/* Header */
+.hero {
+    background: url('../images/stadium3.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.hero-football {
+    background: url('../images/football.jpg') no-repeat center center/cover;
+    height: 50vh;
+}
+.hero-basketball {
+    background: url('../images/basketball.jpg') no-repeat center center/cover;
+    height: 50vh;
+}
+.hero-baseball {
+    background: url('../images/baseball.jpg') no-repeat center center/cover;
+    height: 50vh;
+}
+/* .hero-merch {
+    background: url('../images/stadium3.jpg') no-repeat center center/cover;
+    height: 25vh;
+} */
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0px 20px;
+    
+}
+
+.hero .content .logo-cover {
+    height: 520px;
+    width: 650px;
+    margin-top: 100px;
+}
+
+.hero .content p {
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    line-height: 1.7rem;
+    color: rgba(255, 0, 0, 0.781);
+    -webkit-text-stroke:rgb(11, 48, 214);
+    text-shadow: 2px 2px 2px rgb(11, 48, 214);
+    max-width: 600px;
+   
+}
+.hero .content .scream {
+    font-size: 190px;
+    margin-top: 60px;
+}
+
+.hero .content .bball{
+     font-size: 30px;
+     padding-left: 2px;
+     padding-right: 5px;
+      
+}
+.hero .content .fball{
+     font-size: 100px;
+     padding-left: 2px;
+     padding-right: 5px;
+      
+}
+
+/* .hero span .ball {
+    display: flex;
+    margin-top: 150px;
+} */
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+.hero * {
+    z-index: 10;
+}
+
+.logo img {
+    height: 50px;
+    width: 60px;
+    display: flex;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.heading h1 {
+    font-family: 'Bitter', sans-serif;
+    background: black;
+    color: red;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.talk .football {
+    background: url('../images/football.jpg') no-repeat center center/cover;
+    height: 300px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.talk .basketball {
+    background: url('../images/basketball.jpg') no-repeat center center/cover;
+    height: 300px;
+}
+
+
+
+.talk .box {
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+ }
+
+.clr {
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    background: black;
+    color: red;
+}
+
+.footer a {
+    color: red;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+.footer .social > * {
+    margin-right: 30px;
+}
+
+/* Football HTML */
+
+.container {
+     padding-top: 50px;
+     margin-left: 105px;
+     padding-bottom: 50px;
+     color: red;
+}
+
+.container iframe {
+    padding: 0px 20px;;
+}
+
+.video {
+    /* background: black; */
+    padding-bottom: 20px;
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); */
+    width: 23; /* Thumbnails 4 across */
+    height: 255px;
+    margin: 1%;
+    float: left;
+  }
+
+.videoTitle {
+        background:rgb(14, 16, 17);
+        color: red;
+        text-align: center;
+        width: 281px;
+        margin-left: 20px;
+         
+         
+        /* padding-top: 5px; */
+        /* padding-bottom: 8px; */
+    }
+
+    /* Merch.html */
+    .merch .emb {
+        margin-top: 70px;
+        width: 100%;
+        height: 100vw;
+    }
+
+
+/* Mobile */
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .hero .content .scream {
+        font-size: 100px;
+        margin-top: 60px;
+    }
+
+    .hero .content .fball{
+        font-size: 60px;
+        padding-left: 2px;
+        padding-right: 5px;
+   }
+
+   .hero .content p {
+    font-size: 45px;
+}
+.hero .content .logo-cover {
+    height: 320px;
+    width: 450px;
+    margin-top: 100px;
+}
+.talk .box{
+    float: none;
+    width: 100%; 
+}
+
+.talk a{
+    display: block;
+}
+}
