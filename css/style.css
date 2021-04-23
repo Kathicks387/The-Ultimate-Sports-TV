@@ -90,6 +90,12 @@ p {
     background: url('../images/baseball.jpg') no-repeat center center/cover;
     height: 50vh;
 }
+.hero-contact {
+    background: url('../images/stadium3.jpg') no-repeat center center/cover;
+    height: 10vh;
+    position: relative;
+    color: #fff;
+}
 
 
 .hero .content {
@@ -258,7 +264,7 @@ p {
 
 
 .container2 {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 120px;
     margin-bottom: 80px;
     color: red;
@@ -351,11 +357,36 @@ form .btn {
 }
 
 .container2 {
-    margin-top: 150px;
-    margin-left: 20px;
+    margin-top: 100px;
+    align-items: center;
 }
 
 form input {
-    width: 50%;
+    width: 100%;
 }
+
+.photo .contact-pic {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+}
+
+@media screen  and (min-width: 374px) and (max-width: 415px) {
+    .container2 {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    
+    form input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 350px;
+    }
+    
+    .photo .contact-pic {
+        margin-left: 5px;
+        margin-top: 60px;
+    }
 }
