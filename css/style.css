@@ -91,7 +91,7 @@ p {
     height: 50vh;
 }
 .hero-contact {
-    background: url('../images/stadium3.jpg') no-repeat center center/cover;
+    background: blue;
     height: 10vh;
     position: relative;
     color: #fff;
