@@ -227,32 +227,28 @@ p {
 }
 
 /* Football HTML */
-
+#football,
+#basketball,
+#contact {
+    background: rgb(243, 242, 241);
+}
 .container {
-     padding-top: 50px;
-     margin-left: 105px;
-     padding-bottom: 50px;
-     color: red;
+    padding-top: 70px;
+     margin-left: 250px;
+     margin-right: 120px;
+     padding-bottom: 70px;
+ 
 }
 
 .container iframe {
-    padding: 0px 20px;;
+    padding: 15px 15px;;
 }
 
 .video {
-    padding-bottom: 20px;
     height: 255px;
     margin: 1%;
     float: left;
   }
-
-.videoTitle {
-        background:rgb(14, 16, 17);
-        color: red;
-        text-align: center;
-        width: 281px;
-        margin-left: 20px;
-}
 
     /* Merch.html */
     .merch .emb {
@@ -313,6 +309,7 @@ form .btn {
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    width: 100%;
 }
 
 /* Mobile */
@@ -371,10 +368,19 @@ form input {
 }
 }
 
-@media screen  and (min-width: 374px) and (max-width: 415px) {
+@media screen  and (min-width: 374px) and (max-width: 413px) {
+    .container {
+        padding-top: 50px;
+         margin-left: 20px;
+         margin-right: 20px;
+         padding-bottom: 50px;
+     
+    }
+    
     .container2 {
         margin-top: 100px;
-        margin-left: 30px;
+        margin-left: 10px;
+       
     }
     
     form input {
@@ -387,6 +393,34 @@ form input {
     
     .photo .contact-pic {
         margin-left: 5px;
+        margin-top: 60px;
+    }
+}
+@media screen  and (min-width: 414px) and (max-width: 515px) {
+    .container {
+        padding-top: 50px;
+         margin-left: 45px;
+         margin-right: 20px;
+         padding-bottom: 50px;
+     
+    }
+    
+    .container2 {
+        margin-top: 100px;
+        margin-left: 32px;
+       
+    }
+    
+    form input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 350px;
+    }
+    
+    .photo .contact-pic {
+        margin-left: 2px;
         margin-top: 60px;
     }
 }
