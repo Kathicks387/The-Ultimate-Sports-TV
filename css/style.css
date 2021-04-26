@@ -234,9 +234,9 @@ p {
 }
 .container {
     padding-top: 70px;
-     margin-left: 250px;
-     margin-right: 120px;
-     padding-bottom: 70px;
+    margin-left: 250px;
+    margin-right: 120px;
+    padding-bottom: 70px;
  
 }
 
@@ -257,8 +257,6 @@ p {
         height: 100vw;
     }
 /* Contact */
-
-
 .container2 {
     margin-top: 20px;
     margin-left: 120px;
@@ -282,7 +280,7 @@ p {
 .container2 label, 
 .container2 .btn {
      
-    font-family: 'Bitter', sans-serif;;
+    font-family: 'Bitter', sans-serif;
 }
 
 form .label{
@@ -311,6 +309,17 @@ form .btn {
     font-weight: bold;
     width: 100%;
     margin-bottom: 50px;
+}
+
+/* Success.html */
+.success{
+   text-align: center;
+   background:rgb(221, 219, 218);
+   color: red;
+}
+
+.success a:hover {
+    color: blue;
 }
 
 /* Mobile */
