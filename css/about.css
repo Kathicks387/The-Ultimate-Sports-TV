@@ -119,37 +119,50 @@ button:focus {
 
   /* Mobile */
   @media screen and  (max-width: 768px){
-   .slider-container{
-     margin-top: 120px;
-   } 
-   
+    .slider-container{
+      margin-top: 120px;
+  } 
     .left-slide h1{
-       margin-top: -550px; 
-       font-weight: 600;
-       font-size: 20px;
-       text-align: center;
-       margin-bottom: 100px;
-    }   
+      margin-top: -350px; 
+      font-weight: 600;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 100px;
+  }   
 
     .left-slide .info p {
-        position: absolute;
-        margin-left: -105px;
-        padding-right: 15px;
-        margin-top: 150px;
-        width: 85%;
-        text-align: center;
-        font-weight: 500;
-    }
+      position: absolute;
+      margin-left: -105px;
+      padding-right: 15px;
+      margin-top: 50px;
+      width: 85%;
+      text-align: center;
+      font-weight: 500;
+  }
     .slider-container .action-buttons button {
       top: 35%;
-    }
+  }
+    .right-slide .maliqabout{
+      background-size: 510px 900px;
+  }
+    .right-slide .threebrothers {
+      background-size: 510px 990px;
+  }
+    .right-slide  .maliqmask,
+    .right-slide .momanddad,
+    .right-slide .brothersacting,
+    .right-slide  .sexton {
+      background-size: 500px 900px;
+      background-position: top;
+  }
+      
   }
   
   
-    @media screen  and (min-width: 374px) and (max-width: 415px) {
-      .slider-container {
-         margin-top: 120px;
-      } 
+  @media screen  and (min-width: 374px) and (max-width: 415px) {
+    .slider-container {
+      margin-top: 120px;
+  } 
       
       .slider-container .action-buttons button {
         top: 40%;
@@ -193,8 +206,7 @@ button:focus {
          background-size: 310px 700px;
        }
        
-       .right-slide .threebrothers,
-       .right-slide  .sexton {
+       .right-slide .threebrothers {
         background-size: 310px 690px;
       }
 
