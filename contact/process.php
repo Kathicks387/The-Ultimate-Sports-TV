@@ -10,5 +10,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ', "From:" . $email);
     
-    header('Location: http://theultimatesportstv.com/success.html');
+    header('Location: http://www.theultimatesportstv.com/contact/success.html');
   }
