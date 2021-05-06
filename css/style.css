@@ -109,10 +109,21 @@ p {
     
 }
 
-.hero .content .logo-cover {
-    height: 520px;
-    width: 650px;
+.logo-cover {
+    height: 120px;
+    width: 150px;
     margin-top: 100px;
+    animation-name: animate1;
+    
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate1 {
+    to {
+        width: 680px;
+        height: 520px;
+    }
 }
 
 .hero .content p {
